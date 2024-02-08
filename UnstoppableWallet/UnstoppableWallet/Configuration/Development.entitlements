@@ -10,8 +10,8 @@
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.io.horizontalsystems.bank-wallet.dev</string>
-		<string>iCloud.io.horizontalsystems.bank-wallet.shared.dev</string>
+		<string>iCloud.dexnet.bank-wallet.dev</string>
+		<string>iCloud.dexnet.bank-wallet.shared.dev</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
@@ -19,7 +19,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.io.horizontalsystems.bank-wallet.dev</string>
+		<string>group.dexnet.bank-wallet.dev</string>
 	</array>
 </dict>
 </plist>

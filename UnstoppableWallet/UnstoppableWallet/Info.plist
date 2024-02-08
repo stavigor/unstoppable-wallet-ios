@@ -28,7 +28,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>io.horizontalsystems.bank-wallet</string>
+			<string>dexnet.bank-wallet</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>unstoppable.money</string>
@@ -89,7 +89,7 @@
 	<string>We need access to photo library to save NFT images</string>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.io.horizontalsystems.bank-wallet.shared</key>
+		<key>iCloud.dexnet.bank-wallet.shared</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
@@ -98,7 +98,7 @@
 			<key>NSUbiquitousContainerSupportedFolderLevels</key>
 			<string>Any</string>
 		</dict>
-		<key>iCloud.io.horizontalsystems.bank-wallet.shared.dev</key>
+		<key>iCloud.dexnet.bank-wallet.shared.dev</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>

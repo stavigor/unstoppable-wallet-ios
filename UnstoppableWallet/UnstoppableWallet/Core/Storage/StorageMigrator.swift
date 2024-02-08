@@ -41,7 +41,7 @@ enum StorageMigrator {
         }
 
         migrator.registerMigration("migrateAuthData") { db in
-            let keychain = Keychain(service: "io.horizontalsystems.bank.dev")
+            let keychain = Keychain(service: "dexnet.bank.dev")
             guard let data = try? keychain.getData("auth_data_keychain_key"), let authData = try? NSKeyedUnarchiver.unarchivedObject(ofClass: AuthData.self, from: data) else {
                 return
             }
@@ -383,7 +383,7 @@ enum StorageMigrator {
                 var accountType = oldAccount.type
 
                 if accountType == "zcash" {
-                    let keychain = Keychain(service: "io.horizontalsystems.bank.dev")
+                    let keychain = Keychain(service: "dexnet.bank.dev")
 
                     let key = "zcash_\(oldAccount.id)_birthdayHeight"
                     if let birthdayHeightString = keychain[key], let birthdayHeight = Int(birthdayHeightString) {
@@ -493,7 +493,7 @@ enum StorageMigrator {
         }
 
         migrator.registerMigration("fillSaltToAccountsKeychain") { db in
-            let keychain = Keychain(service: "io.horizontalsystems.bank.dev")
+            let keychain = Keychain(service: "dexnet.bank.dev")
             let records = try AccountRecord_v_0_36.fetchAll(db)
 
             for record in records {

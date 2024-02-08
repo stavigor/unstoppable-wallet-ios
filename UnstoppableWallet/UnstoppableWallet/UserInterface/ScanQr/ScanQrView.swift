@@ -3,7 +3,7 @@ import UIExtensions
 import UIKit
 
 class ScanQrView: UIView {
-    private let scanQueue = DispatchQueue(label: "io.horizontalsystems.unstoppable.scan_view", qos: .default)
+    private let scanQueue = DispatchQueue(label: "dexnet.unstoppable.scan_view", qos: .default)
     private let sideMargin: CGFloat = .margin24
 
     weak var delegate: IScanQrCodeDelegate?

@@ -3,7 +3,7 @@ import Foundation
 class DateFormatterCache {
     static let shared = DateFormatterCache()
 
-    private let queue = DispatchQueue(label: "io.horizontalsystems.unstoppable.date_formatter_cache", qos: .userInitiated)
+    private let queue = DispatchQueue(label: "dexnet.unstoppable.date_formatter_cache", qos: .userInitiated)
 
     private var formatters = [CacheKey: DateFormatter]()
 

@@ -3,7 +3,7 @@ import MarketKit
 import UIKit
 
 enum AppConfig {
-    static let label = "io.horizontalsystems.unstoppable"
+    static let label = "dexnet.unstoppable"
     static let backupSalt = "unstoppable"
 
     static let companyName = "Horizontal Systems"

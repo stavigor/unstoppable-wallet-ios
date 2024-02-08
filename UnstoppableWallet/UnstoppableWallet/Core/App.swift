@@ -121,7 +121,7 @@ class App {
 
         userDefaultsStorage = UserDefaultsStorage()
         localStorage = LocalStorage(userDefaultsStorage: userDefaultsStorage)
-        keychainStorage = KeychainStorage(service: "io.horizontalsystems.bank.dev")
+        keychainStorage = KeychainStorage(service: "dexnet.bank.dev")
 
         pasteboardManager = PasteboardManager()
         reachabilityManager = ReachabilityManager()
